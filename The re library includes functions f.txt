@@ -1,0 +1,10 @@
+The re library includes functions for regular expressions:
+
+- re.search("xxx", "yyy"): search the string "yyy" for an instance of "xxx"
+- re.match(): same as re.search but it starts at the beginning of the string and can't find matches that start in the middle or a string
+
+
+The nltk natural language toolkit library includes tokenization functions:
+
+- sent_tokenize: tokenize a document into sentences
+- regexp_tokenize: tokenize a string or document based on a regular expression pattern
